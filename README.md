@@ -1,6 +1,6 @@
 # Stream Assistant
 
-A basic Twitch bot scaffold in Node.js + TypeScript. It sits in your chat, listens for Channel Points redemptions, and keeps a simple music request queue. Nothing fancy yet — it's meant as a starting point you build on, not a finished product.
+A basic Twitch bot scaffold in TypeScript and a little bit of Node.js. It sits in your chat, listens for Channel Points redemptions, and keeps a simple music request queue. Nothing fancy yet just a simple base for future development.
 
 ## What it actually does
 
