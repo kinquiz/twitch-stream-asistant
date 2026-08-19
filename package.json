@@ -1,0 +1,29 @@
+{
+  "name": "stream-assistant",
+  "version": "0.1.0",
+  "description": "Twitch-бот для помощи в ведении стримов: чат-команды, Channel Points редемпшены и очередь музыки",
+  "private": true,
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "tmi.js": "^1.8.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/tmi.js": "^1.8.6",
+    "@types/ws": "^8.5.11",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
