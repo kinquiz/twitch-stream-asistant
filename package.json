@@ -1,7 +1,7 @@
 {
   "name": "stream-assistant",
   "version": "0.1.0",
-  "description": "Twitch-бот для помощи в ведении стримов: чат-команды, Channel Points редемпшены и очередь музыки",
+  "description": "Basic twitch assistant. Made by kinquiz",
   "private": true,
   "type": "commonjs",
   "main": "dist/index.js",
